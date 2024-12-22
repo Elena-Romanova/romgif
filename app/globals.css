@@ -14,6 +14,26 @@
   }
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DAE2EA;
+  /* border-right: solid 6px; */
+  height: 77px;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c6cdd4;
+}
+
+::-webkit-scrollbar-track {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
